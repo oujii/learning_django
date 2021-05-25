@@ -19,7 +19,7 @@ from learning_app import views
 
 
 urlpatterns = [
-    url(r'^help/$', views.help),
     url(r'^$', views.index, name="index"),
     url(r'^admin/', admin.site.urls),
+    url(r'^help/', views.help),
 ]
